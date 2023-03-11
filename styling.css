@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    padding: 1em;
+    font-size: 13px;
+}
+.container {
+    position: relative;
+    top: 100px;
+    width: 100px;
+  }
+  
+  .container img {
+    position: absolute;
+    animation: slide 5s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  main {
+    position: relative;
+    top: 200px;
+  }
+  
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+ul li a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.gta {
+    padding: 15px 30px;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+.gta {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(207, 225, 231);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 50px;
+  }
+
+  .gta input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .gta button[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 15px;
+    border: none;
+    background-color: #2196F3;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .udemy {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .mop {
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: square;
+    width: 50px;
+    height: 40px;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    
+  }
+
+  
